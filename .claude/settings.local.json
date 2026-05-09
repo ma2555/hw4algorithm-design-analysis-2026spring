@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la ~/.ssh/ 2>&1)",
+      "Read(//c/Users/19379/.ssh/**)",
+      "Bash(ssh -T git@github.com)",
+      "Bash(git remote *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git config *)"
+    ]
+  }
+}
